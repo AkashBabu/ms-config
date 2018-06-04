@@ -44,7 +44,7 @@ const configs = {
 
 
 /**
- * @type {Config}
+ * @type {MS_Config}
  */
 const CONFIG = Object.freeze(Object.assign({}, configs[GetENV()], configs.global));
 

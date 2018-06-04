@@ -15,7 +15,7 @@
  */
 
 /**
- * @typedef {object} Config
+ * @typedef {object} MS_Config
  * @property {AmqpSettings} amqp RabbitMQ Settings
  * @property {MongoSettings} mongo MongoDB Settings
  * @property {RedisSettings} redis Redis Settings
