@@ -1,0 +1,26 @@
+{
+  "name": "ms-config",
+  "version": "1.0.0",
+  "description": "Configuration Service for all micro-services",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AkashBabu/ms-config.git"
+  },
+  "keywords": [
+    "config",
+    "micro-service"
+  ],
+  "author": "Akash Babu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AkashBabu/ms-config/issues"
+  },
+  "homepage": "https://github.com/AkashBabu/ms-config#readme",
+  "dependencies": {
+    "lib-env": "git@github.com:AkashBabu/lib-env.git"
+  }
+}
