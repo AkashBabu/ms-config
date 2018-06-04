@@ -1,6 +1,6 @@
 {
   "name": "ms-config",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Configuration Service for all micro-services",
   "main": "index.js",
   "scripts": {
