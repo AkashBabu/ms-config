@@ -1,5 +1,9 @@
 import { GetENV } from "lib-env"
 
+/**
+ * @import {../typedefs.js}
+ */
+
 const configs = {
     prod: {
         amqp: {
@@ -46,6 +50,6 @@ const configs = {
 /**
  * @type {MS_Config}
  */
-const CONFIG = Object.freeze(Object.assign({}, configs[GetENV()], configs.global));
+const MS_CONFIG = Object.freeze(Object.assign({}, configs[GetENV()], configs.global));
 
-export default CONFIG;
+export default MS_CONFIG;
