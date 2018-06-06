@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/AkashBabu/ms-config#readme",
   "dependencies": {
-    "lib-env": "git@github.com:AkashBabu/lib-env.git"
+    "lib-env": "git+ssh://git@github.com/AkashBabu/lib-env.git"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
