@@ -2,9 +2,10 @@
   "name": "ms-config",
   "version": "1.0.2",
   "description": "Configuration Service for all micro-services",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "exit 0",
+    "build": "$(npm bin)/babel src --out-dir dist"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,25 @@
   "homepage": "https://github.com/AkashBabu/ms-config#readme",
   "dependencies": {
     "lib-env": "git@github.com:AkashBabu/lib-env.git"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^8.2.3",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-runtime": "^6.26.0",
+    "babel-watch": "^2.0.7",
+    "chai": "^4.1.2",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-class-property": "^1.0.6",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-mocha": "^5.0.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-react": "^6.10.3",
+    "mocha": "^5.2.0"
   }
 }
