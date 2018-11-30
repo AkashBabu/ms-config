@@ -1,2 +1,2 @@
-# ms-config
+# ms-config [![Build Status](https://travis-ci.org/AkashBabu/ms-config.svg?branch=master)](https://travis-ci.org/AkashBabu/ms-config) [![Test Coverage](https://api.codeclimate.com/v1/badges/94b6f3721a95827dc8fa/test_coverage)](https://codeclimate.com/github/AkashBabu/ms-config/test_coverage) [![Maintainability](https://api.codeclimate.com/v1/badges/94b6f3721a95827dc8fa/maintainability)](https://codeclimate.com/github/AkashBabu/ms-config/maintainability)
 Configuration Service that holds all the metadata about micro-services
